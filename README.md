@@ -1,4 +1,4 @@
-# virtual-worlds
+# virtual worlds
 
 > artists who create by writing or producing other representations of what the world is or could be are also laying out a map for how the world could become.
 > 
@@ -13,8 +13,6 @@ the __meeting dates__ are from 04.01.2021 until 16.01.2021, and with daily sessi
 the __meeting times__ are 10:00-12:00 CET (section 1), and 18:00-20:00 CET (section 2).
 
 the main __resources__ are the [wiki](https://github.com/periode/virtual-worlds/course-wiki/) and the [notes](https://periode.github.io/virtual-worlds).
-
----
 
 ## course description
 
