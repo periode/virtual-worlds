@@ -1,250 +1,315 @@
-<!DOCTYPE html><html><head><meta charset="utf8"><title>virtual worlds | notes</title><style>body {
-	margin: 0;
-	padding: 0;
-	font-family: 'Inter UI', Trebuchet MS;
-	background-color: white;
-}
+<!DOCTYPE html>
+<html>
 
-header {
-	background-color: black;
-	color: white;
-  padding: 10px;
-	overflow: auto;
-}
+<head>
+	<meta charset="utf8">
+	<title>virtual worlds | notes</title>
+	<style>
+		body {
+			margin: 0;
+			padding: 0;
+			font-family: 'Inter UI', Trebuchet MS;
+			background-color: white;
+		}
 
-header h1{
-	display: inline-block;
-	margin-left: 5%;
-	margin-right: 5%;
-	width: 40%;
-	font-size: 2.5em;
-}
+		header {
+			background-color: black;
+			color: white;
+			padding: 10px;
+			overflow: auto;
+		}
 
-@media print{
-	header h1{
-		font-size: 1em;
-	}
-}
+		header h1 {
+			display: inline-block;
+			margin-left: 5%;
+			margin-right: 5%;
+			width: 40%;
+			font-size: 2.5em;
+		}
 
-.subject-name{
-	float: right;
-	text-align: right;
-}
+		q{
+			border-left: 2px solid #e77607;
+			display: block;
+			padding-left: 10px;
+			font-style: italic;
+		}
 
-.topic-name{
-	float: left;
-	text-align: left;
-}
+		@media print {
+			header h1 {
+				font-size: 1em;
+			}
+		}
 
-a {
-	text-decoration: none;
-  color: #e77607;
-}
+		.subject-name {
+			float: right;
+			text-align: right;
+		}
 
-a:hover {
-	text-decoration: underline;
-}
+		.topic-name {
+			float: left;
+			text-align: left;
+		}
 
-a:visited {
-  color: #b25900;
-}
+		a {
+			text-decoration: none;
+			color: #e77607;
+		}
 
-header a{
-	color: white;
-	text-decoration: none;
-	border: 2px solid white;
-	padding: 3px;
-}
+		a:hover {
+			text-decoration: underline;
+		}
 
-main{
-	position: absolute;
-	margin-left: 20%;
-	width: 60%;
-	display: block;
-}
+		a:visited {
+			color: #b25900;
+		}
 
-@media print{
-	main{
-		margin-left: 5%;
-		width: 90%;
-	}
-}
+		header a {
+			color: white;
+			text-decoration: none;
+			border: 2px solid white;
+			padding: 3px;
+		}
 
-hr {
-	border: none;
-	height: 2px;
-	background-color: black;
-	float: left;
-	width: 100%;
-}
+		main {
+			position: absolute;
+			margin-left: 20%;
+			width: 60%;
+			display: block;
+		}
 
-img {
-	max-height: 300px;
-	max-width: 90%;
-}
+		@media print {
+			main {
+				margin-left: 5%;
+				width: 90%;
+			}
+		}
 
-.concept-group{
-	width: 80%;
-	margin-left: 10%;
-	display: block;
-	float: left;
-}
+		hr {
+			border: none;
+			height: 2px;
+			background-color: black;
+			float: left;
+			width: 100%;
+		}
 
-.concept-nav{
-	width: 30%;
-	float: right;
-	margin-right: 10%;
-}
+		img {
+			max-height: 300px;
+			max-width: 90%;
+		}
 
-.overview-holder{
-	float: left;
-	width: 38%;
-	margin-left: 10%;
-}
+		.concept-group {
+			width: 80%;
+			margin-left: 10%;
+			display: block;
+			float: left;
+		}
 
-@media print{
-	.concept-group, .concept-nav{
-		width: 90%;
-		margin-left: 5%;
-	}
-}
+		.concept-nav {
+			width: 30%;
+			float: right;
+			margin-right: 10%;
+		}
 
-.concept-name {
-	width: 98%;
-	text-align: right;
-	float: right;
-	color: black;
-	border-bottom: 2px solid black;
-	padding: 1%;
-	font-size: 2em;
-}
+		.overview-holder {
+			float: left;
+			width: 38%;
+			margin-left: 10%;
+		}
 
-.break-before, .break-after{
-	display: block;
-	width: 100%;
-	height: 5px;
-	float: left;
-}
+		@media print {
 
-.break-after{
-	page-break-after: always;
-}
+			.concept-group,
+			.concept-nav {
+				width: 90%;
+				margin-left: 5%;
+			}
+		}
 
-.page-group{
-	position: relative;
-	font-size: 1.2em;
-	width: 50%;
-	float: left;
-}
+		.concept-name {
+			width: 98%;
+			text-align: right;
+			float: right;
+			color: black;
+			border-bottom: 2px solid black;
+			padding: 1%;
+			font-size: 2em;
+		}
 
-@media print{
+		.break-before,
+		.break-after {
+			display: block;
+			width: 100%;
+			height: 5px;
+			float: left;
+		}
 
-	.page-group{
-		width: 70%;
-		page-break-inside: avoid;
-	}
+		.break-after {
+			page-break-after: always;
+		}
 
-	.prep{
-		font-size: 0.8em;
-	}
-}
+		.page-group {
+			position: relative;
+			font-size: 1.2em;
+			width: 50%;
+			float: left;
+		}
 
-.page-name{
-	width: 100%;
-	float: left;
-}
+		@media print {
 
-.note-group{
-	position: relative;
-	width: 50%;
-	float: left;
-	overflow: auto;
-	text-align: left;
-}
+			.page-group {
+				width: 70%;
+				page-break-inside: avoid;
+			}
 
-@media print{
-	.note-group{
-		width: 30%;
-	}
-}
+			.prep {
+				font-size: 0.8em;
+			}
+		}
 
-.note {
-	position: relative;
-	margin-bottom: 10px;
-	width: 100%;
-	overflow: auto;
-	white-space: pre;
-}
+		.page-name {
+			width: 100%;
+			float: left;
+		}
 
-@media print {
-	.note{
-		white-space: normal;
-	}
-}
+		.note-group {
+			position: relative;
+			width: 50%;
+			float: left;
+			overflow: auto;
+			text-align: left;
+		}
 
-.writeup-group{
-	width: 100%;
-	margin-top: 30px;
-	margin-bottom: 30px;
-	float: left;
-}
+		@media print {
+			.note-group {
+				width: 30%;
+			}
+		}
 
-@media print{
-	.writeup-group{
-		break-inside: avoid;
-		font-size: 0.9em;
-	}
-}
+		.note {
+			position: relative;
+			margin-bottom: 10px;
+			width: 100%;
+			overflow: auto;
+			white-space: pre;
+		}
 
-.context{
-	white-space: pre-line;
-	border: 2px solid black;
-	width: 45%;
-	padding: 5px;
-	float: right;
-}
+		@media print {
+			.note {
+				white-space: normal;
+			}
+		}
 
-@media print{
-	.context{
-		width: 100%
-	}
-}
+		.writeup-group {
+			width: 100%;
+			margin-top: 30px;
+			margin-bottom: 30px;
+			float: left;
+		}
 
-.writeup{
-	width: 100%;
-	float: left;
-	margin-bottom: 10px;
-	font-style: italic;
-	white-space: pre-line;
-}
+		@media print {
+			.writeup-group {
+				break-inside: avoid;
+				font-size: 0.9em;
+			}
+		}
 
-.web-only{
-	display: inherit;
-}
+		.context {
+			white-space: pre-line;
+			border: 2px solid black;
+			width: 45%;
+			padding: 5px;
+			float: right;
+		}
 
-.print-only{
-	display: none;
-}
+		@media print {
+			.context {
+				width: 100%
+			}
+		}
 
-@media print{
-	* {
-		float: none !important;
-	}
+		.writeup {
+			width: 100%;
+			float: left;
+			margin-bottom: 10px;
+			font-style: italic;
+			white-space: pre-line;
+		}
 
-	.break-before{
-		page-break-before: always !important;
-	}
+		.web-only {
+			display: inherit;
+		}
 
-	.break-after{
-		page-break-after: always !important;
-	}
+		.print-only {
+			display: none;
+		}
 
-	.web-only{
-		display: none;
-	}
+		@media print {
+			* {
+				float: none !important;
+			}
 
-	.print-only{
-		display: inline-block;
-	}
-}
-</style></head><body><header><h2>virtual worlds</h2></header><main><p></p><h1>course notes</h1><ol><li><a href="introduction.html">introduction</a></li><li><a href="ways of worldmaking.html">ways of worldmaking</a></li><li><a href="environmental storytelling.html">environmental storytelling</a></li><li><a href="responsive spaces.html">responsive spaces</a></li><li><a href="design approaches.html">design approaches</a></li><li><a href="ideas presentation.html">ideas presentation</a></li><li><a href="procedural rhetoric.html">procedural rhetoric</a></li><li><a href="network embrace.html">network embrace</a></li><li><a href="framing and presenting.html">framing and presenting</a></li><li><a href="conclusion.html">conclusion</a></li></ol></main></body></html>
+			.break-before {
+				page-break-before: always !important;
+			}
+
+			.break-after {
+				page-break-after: always !important;
+			}
+
+			.web-only {
+				display: none;
+			}
+
+			.print-only {
+				display: inline-block;
+			}
+		}
+	</style>
+</head>
+
+<body>
+	<header>
+		<h1>virtual worlds</h1>
+	</header>
+	<main>
+		<h1>course description</h1>
+		<p>
+			<q>
+				artists who create by writing or producing other representations of what the world is or could be are also laying out a map for how the world could become.<br/>
+				<br/>
+				richard p. gabriel, science is not enough.			
+			</q>
+			<p>
+				the world is a work of carefully assembled, organized and presented pieces of fiction, which intersect more or less intimately with our beliefs and experiences. this course will propose a suspension of disbelief in order to construct virtual cosmogonies in the Unity game engine.
+			</p>
+			<p>
+				how can we pick, lay out and program texts, images, films, objects, spaces and procedures to persuade a virtual visitor of the coherence of our world?
+			</p>
+			<p>
+				drawing on environmental storytelling, procedural rhetoric, literary studies and museography, this class will explore how we can build accounts of untold stories, alternate realities and possible worlds.
+			</p>
+			<p>
+				the whole class website can be found <a href="https://github.com/periode/virtual-worlds">here</a>.
+			</p>
+		</p>
+		<h1>course worlds</h1>
+		<p>
+			find all the worlds created during the course <a href="list.html">here</a>.
+		</p>
+		<h1>course notes</h1>
+		<ol>
+			<li><a href="introduction.html">introduction</a></li>
+			<li><a href="ways of worldmaking.html">ways of worldmaking</a></li>
+			<li><a href="environmental storytelling.html">environmental storytelling</a></li>
+			<li><a href="responsive spaces.html">responsive spaces</a></li>
+			<li><a href="design approaches.html">design approaches</a></li>
+			<li><a href="ideas presentation.html">ideas presentation</a></li>
+			<li><a href="procedural rhetoric.html">procedural rhetoric</a></li>
+			<li><a href="network embrace.html">network embrace</a></li>
+			<li><a href="framing and presenting.html">framing and presenting</a></li>
+			<li><a href="conclusion.html">conclusion</a></li>
+		</ol>
+	</main>
+</body>
+
+</html>

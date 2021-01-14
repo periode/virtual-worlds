@@ -1,0 +1,161 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>virtual worlds | list</title>
+    <style>
+        body {
+            margin: 0;
+            padding: 0;
+            font-family: 'Inter', Trebuchet MS;
+            background-color: white;
+        }
+
+        header {
+            background-color: black;
+            color: white;
+            padding: 10px;
+            font-family: 'Inter', Trebuchet MS;
+            overflow: auto;
+        }
+
+        header h1 {
+            display: inline-block;
+            margin-left: 5%;
+            margin-right: 5%;
+            width: 40%;
+            font-size: 2.5em;
+        }
+
+        @media print {
+            header h1 {
+                font-size: 1em;
+            }
+        }
+
+        a {
+            text-decoration: none;
+            color: #e77607;
+        }
+
+        a:hover {
+            text-decoration: underline;
+        }
+
+        a:visited {
+            color: #b25900;
+        }
+
+        header a {
+            color: white;
+            text-decoration: none;
+            border: 2px solid white;
+            padding: 3px;
+        }
+
+        .subject-name {
+            float: right;
+            text-align: right;
+        }
+
+        .topic-name {
+            float: left;
+            text-align: left;
+        }
+
+        main {
+            position: absolute;
+            margin-left: 20%;
+            width: 60%;
+            display: block;
+        }
+
+        @media print {
+            main {
+                margin-left: 5%;
+                width: 90%;
+            }
+        }
+
+        hr {
+            border: none;
+            height: 2px;
+            background-color: black;
+            float: left;
+            width: 100%;
+        }
+
+        ol {
+            list-style-type: square;
+        }
+
+        li {
+            margin-bottom: 50px;
+            margin-top: 50px;
+        }
+
+        .world {
+            font-size: 1.5em;
+        }
+
+        .author {
+            float: right;
+            font-weight: bold;
+        }
+
+        .author::before {
+            font-weight: normal;
+            content: "imagined by: ";
+        }
+
+        .description {
+            font-style: italic;
+            margin-top: 20px;
+            text-align: justify;
+        }
+    </style>
+</head>
+
+<body>
+    <header>
+        <h1 class="topic-name">list</h1>
+        <h1 class="subject-name"><a href="index.html">virtual worlds</a></h1>
+    </header>
+
+    <main>
+        <h1>list of worlds</h1>
+
+        <ol>
+            <li class="world">
+                <div class="name">
+                    <a href="/">name</a>
+                    <span class="author">person </span>
+                </div>
+
+                <div class="description">
+                    Lorem ipsum dolor sit amet, consectetur adipisicing elit. Excepturi fuga, debitis velit rerum
+                    reprehenderit atque mollitia sit officia perspiciatis asperiores itaque esse quidem distinctio
+                    doloremque blanditiis amet adipisci beatae nostrum!
+                </div>
+            </li>
+
+            <li class="world">
+                <div class="name">
+                    <a href="/">name</a>
+                    <span class="author">person </span>
+                </div>
+
+                <div class="description">
+                    Lorem ipsum dolor sit amet, consectetur adipisicing elit. Excepturi fuga, debitis velit rerum
+                    reprehenderit atque mollitia sit officia perspiciatis asperiores itaque esse quidem distinctio
+                    doloremque blanditiis amet adipisci beatae nostrum!
+                </div>
+            </li>
+
+        </ol>
+    </main>
+</body>
+
+</html>
