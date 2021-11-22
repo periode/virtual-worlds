@@ -6,11 +6,11 @@
 
 ## course information
 
-the __instructor__ for this course is [pierre depaz](https://pierredepaz.net), and the __resident__ is [james hosken](https://jameshosken.com/).
+the __instructor__ for this course is [pierre depaz](https://pierredepaz.net), and the __resident__ is [enrique garcía-alcalá](http://egarciaa.com/en/index.html).
 
-the __meeting dates__ are from 04.01.2021 until 16.01.2021, and with daily sessions.
+the __meeting dates__ are from 05.01.2021 until 17.01.2021, and with daily sessions.
 
-the __meeting times__ are 10:00-12:00 CET (section 1), and 18:00-20:00 CET (section 2).
+the __meeting times__ are 13:00-15:00 CET (section 1), and 16:00-18:00 CET (section 2).
 
 the main __resources__ are the [wiki](https://github.com/periode/virtual-worlds/course-wiki/) and the [notes](https://periode.github.io/virtual-worlds).
 
