@@ -12,7 +12,7 @@ the __meeting dates__ are from 05.01.2021 until 17.01.2021, and with daily sessi
 
 the __meeting times__ are 10:00-12:00 CET (section 1), and 17:00-19:00 CET (section 2).
 
-the main __resources__ are the [wiki](https://github.com/periode/virtual-worlds/course-wiki/) and the [notes](https://periode.github.io/virtual-worlds). you can find similar course info on the [ima low res notion](https://www.notion.so/imalowres/Class-Virtual-Worlds-a3caeef2483c43f58c18e93bbf300129)
+the main __resources__ are the [wiki](https://github.com/periode/virtual-worlds/wiki/) and the [notes](https://periode.github.io/virtual-worlds). you can find similar course info on the [ima low res notion](https://www.notion.so/imalowres/Class-Virtual-Worlds-a3caeef2483c43f58c18e93bbf300129)
 
 ## course description
 
