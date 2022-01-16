@@ -1,0 +1,478 @@
+<!DOCTYPE html><html><head><meta charset="utf8"><title>virtual worlds | procedural rhetoric</title><style>body {
+	margin: 0;
+	padding: 0;
+	font-family: 'Inter UI', Trebuchet MS;
+	background-color: white;
+}
+
+header {
+	background-color: black;
+	color: white;
+  padding: 10px;
+	overflow: auto;
+}
+
+header h1{
+	display: inline-block;
+	margin-left: 5%;
+	margin-right: 5%;
+	width: 40%;
+	font-size: 2.5em;
+}
+
+@media print{
+	header h1{
+		font-size: 1em;
+	}
+}
+
+.subject-name{
+	float: right;
+	text-align: right;
+}
+
+.topic-name{
+	float: left;
+	text-align: left;
+}
+
+a {
+	text-decoration: none;
+  color: #e77607;
+}
+
+a:hover {
+	text-decoration: underline;
+}
+
+a:visited {
+  color: #b25900;
+}
+
+header a{
+	color: white;
+	text-decoration: none;
+	border: 2px solid white;
+	padding: 3px;
+}
+
+main{
+	position: absolute;
+	margin-left: 20%;
+	width: 60%;
+	display: block;
+}
+
+@media print{
+	main{
+		margin-left: 5%;
+		width: 90%;
+	}
+}
+
+hr {
+	border: none;
+	height: 2px;
+	background-color: black;
+	float: left;
+	width: 100%;
+}
+
+img {
+	max-height: 300px;
+	max-width: 90%;
+}
+
+.concept-group{
+	width: 80%;
+	margin-left: 10%;
+	display: block;
+	float: left;
+}
+
+.concept-nav{
+	width: 30%;
+	float: right;
+	margin-right: 10%;
+}
+
+.overview-holder{
+	float: left;
+	width: 38%;
+	margin-left: 10%;
+}
+
+@media print{
+	.concept-group, .concept-nav{
+		width: 90%;
+		margin-left: 5%;
+	}
+}
+
+.concept-name {
+	width: 98%;
+	text-align: right;
+	float: right;
+	color: black;
+	border-bottom: 2px solid black;
+	padding: 1%;
+	font-size: 2em;
+}
+
+.break-before, .break-after{
+	display: block;
+	width: 100%;
+	height: 5px;
+	float: left;
+}
+
+.break-after{
+	page-break-after: always;
+}
+
+.page-group{
+	position: relative;
+	font-size: 1.2em;
+	width: 50%;
+	float: left;
+}
+
+@media print{
+
+	.page-group{
+		width: 70%;
+		page-break-inside: avoid;
+	}
+
+	.prep{
+		font-size: 0.8em;
+	}
+}
+
+.page-name{
+	width: 100%;
+	float: left;
+}
+
+.note-group{
+	position: relative;
+	width: 50%;
+	float: left;
+	overflow: auto;
+	text-align: left;
+}
+
+@media print{
+	.note-group{
+		width: 30%;
+	}
+}
+
+.note {
+	position: relative;
+	margin-bottom: 10px;
+	width: 100%;
+	overflow: auto;
+	white-space: pre;
+}
+
+@media print {
+	.note{
+		white-space: normal;
+	}
+}
+
+.writeup-group{
+	width: 100%;
+	margin-top: 30px;
+	margin-bottom: 30px;
+	float: left;
+}
+
+@media print{
+	.writeup-group{
+		break-inside: avoid;
+		font-size: 0.9em;
+	}
+}
+
+.context{
+	white-space: pre-line;
+	border: 2px solid black;
+	width: 45%;
+	padding: 5px;
+	float: right;
+}
+
+@media print{
+	.context{
+		width: 100%
+	}
+}
+
+.writeup{
+	width: 100%;
+	float: left;
+	margin-bottom: 10px;
+	font-style: italic;
+	white-space: pre-line;
+}
+
+.web-only{
+	display: inherit;
+}
+
+.print-only{
+	display: none;
+}
+
+@media print{
+	* {
+		float: none !important;
+	}
+
+	.break-before{
+		page-break-before: always !important;
+	}
+
+	.break-after{
+		page-break-after: always !important;
+	}
+
+	.web-only{
+		display: none;
+	}
+
+	.print-only{
+		display: inline-block;
+	}
+}
+</style></head><body><header><h1 class="topic-name">procedural rhetoric</h1><h1 class="subject-name"><a href="index.html">virtual worlds</a></h1></header><main><div class="overview-holder"><h1>overview</h1><p>Beyond strict written and visual media as conveyors of arguments, this session will explore how algorithms can be designed and implemented in order to suggest possibilities, courses of actions, and worldviews upon their audiences.</p>
+</div><div class="concept-nav"><h1>summary</h1><ul><a class="web-only" href="#intro">intro</a><li class="print-only">intro</li></ul><ul><a class="web-only" href="#homework review">homework review</a><li class="print-only">homework review</li></ul><ul><a class="web-only" href="#procedural rhetoric">procedural rhetoric</a><li class="print-only">procedural rhetoric</li></ul><ul><a class="web-only" href="#morals in interactive systems">morals in interactive systems</a><li class="print-only">morals in interactive systems</li></ul><ul><a class="web-only" href="#seeing through a computer">seeing through a computer</a><li class="print-only">seeing through a computer</li></ul><ul><a class="web-only" href="#outro">outro</a><li class="print-only">outro</li></ul><br></div><div class="break-after" style="page-break-after:always;"></div><div class="concept-group"><h3 class="concept-name" id="intro">intro</h3><div class="context"><div></div><div class="context-links"></div><hr></div><div class="page-group"><h3 class="page-name">procedural rhetoric</h3><div class="prep" concept="0"><p>welcome!</p>
+</div></div><div class="note-group"></div><div class="writeup-group"><div class="prep writeup" concept="0"></div></div><div class="page-group"><h3 class="page-name">plan for the day</h3><div class="prep" concept="0"><p>how can algorithms and dynamic behaviour <em>persuade</em>?</p>
+<p>-&gt; interactions</p>
+<p>-&gt; procedural rhetoric</p>
+<p>-&gt; morals in computer programs</p>
+<p>-&gt; seeing through a computer</p>
+</div><div class="prep" concept="0"></div></div><div class="note-group"></div><div class="writeup-group"><div class="prep writeup" concept="0"></div></div><div class="page-group"><h3 class="page-name">show &amp; tell</h3><div class="prep" concept="0"><p>-&gt; sharing a link for all to play on itch.io</p>
+<p>-&gt; 4min video recording</p>
+<p>-&gt; 2 slides before, 2 slides after</p>
+</div><div class="prep" concept="0"></div></div><div class="note-group"></div><div class="writeup-group"><div class="prep writeup" concept="0"></div></div></div><br><div class="break-after" style="page-break-after:always;"></div><div class="concept-group"><h3 class="concept-name" id="homework review">homework review</h3><div class="context"><div></div><div class="context-links"></div><hr></div><div class="page-group"><h3 class="page-name">raycasting</h3><div class="prep" concept="1"><p>what kind of raycasting did you implement?</p>
+<p>what are you affecting? how and why?</p>
+</div><div class="prep" concept="1"><img src="virtual worlds_assets/raycasting.png" alt="raycasting.png"></div><div class="prep" concept="1"><img src="virtual worlds_assets/wolfenstein.png" alt="wolfenstein.png"></div><div class="prep" concept="1"></div></div><div class="note-group"></div><div class="writeup-group"><div class="prep writeup" concept="1"><p>The second picture is from <a target='_blank' href="https://lodev.org/cgtutor/raycasting.html">Wolfenstein 3D</a>, the first game to implement real-time 3D graphics on a personal computer.</p>
+</div></div><div class="page-group"><h3 class="page-name">project progress</h3><div class="prep" concept="1"><p>short checkin</p>
+<p>what you&#39;ve done, what you&#39;re doing next</p>
+<hr>
+</div></div><div class="note-group"></div><div class="writeup-group"><div class="prep writeup" concept="1"></div></div><div class="page-group"><h3 class="page-name">interaction(s)</h3><div class="prep" concept="1"><p>how does the visitor interact in your world?</p>
+<p>with what?</p>
+<p>what does it affect/trigger? the space? objects? the visitor?</p>
+<p>does it create things? does it change them? remove them?</p>
+<p>why? how is this related to the story of the world?</p>
+<p><em>list at least one main interaction, and a couple of secondary interactions</em></p>
+</div><div class="prep" concept="1"><p>results:</p>
+<ul>
+<li><p>jesse &amp; frost</p>
+</li>
+<li><ul>
+<li>player decides if they destroy people underground or let them live</li>
+</ul>
+</li>
+<li><ul>
+<li>underground presents a threat</li>
+</ul>
+</li>
+<li><ul>
+<li>if no report, then message from underground</li>
+</ul>
+</li>
+<li><ul>
+<li><ul>
+<li>voice overs from the player (building an image about the world) -&gt; feeling of solitary/loneliness/last person on the earth</li>
+</ul>
+</li>
+</ul>
+</li>
+<li><p>lu &amp; shu</p>
+</li>
+<li><ul>
+<li>opening scene: room in the city -&gt; countryside transition</li>
+</ul>
+</li>
+<li><ul>
+<li>click cat doll, get together into the transition machine (red -&gt; yellow -&gt; green)</li>
+</ul>
+</li>
+<li><ul>
+<li>transition in terms of height (changing the sound of footsteps, camera focus/fov)</li>
+</ul>
+</li>
+<li><p>yuchen &amp; shaun</p>
+</li>
+<li><ul>
+<li>walk/drive around the open world (landmarks/beacons), all roads leading to the bubble</li>
+</ul>
+</li>
+<li><ul>
+<li>going towards the origin of the world (related to a dust storm: low visibility), finding some clues</li>
+</ul>
+</li>
+<li><ul>
+<li>choice about city vs. countryside, single vs. group</li>
+</ul>
+</li>
+<li><p>hiren &amp; amanda</p>
+</li>
+<li><ul>
+<li>tourist follows the tour</li>
+</ul>
+</li>
+<li><ul>
+<li>moving sliders to recreate a cargo colosseum</li>
+</ul>
+</li>
+<li><ul>
+<li>interaction only going one way -&gt; forward</li>
+</ul>
+</li>
+<li><ul>
+<li>single-point interaction of activating gravity on cargos</li>
+</ul>
+</li>
+</ul>
+</div><div class="prep" concept="1"><ul>
+<li><p>art gallery</p>
+</li>
+<li><ul>
+<li>coin interaction in an annoying, tacky way</li>
+</ul>
+</li>
+<li><ul>
+<li><ul>
+<li>info box about the room</li>
+</ul>
+</li>
+</ul>
+</li>
+<li><p>experience disabilities</p>
+</li>
+<li><ul>
+<li>passive interaction: having a disability</li>
+</ul>
+</li>
+<li><ul>
+<li>active interaction: device to get rid of disability</li>
+</ul>
+</li>
+<li><p>meta-metaverse</p>
+</li>
+<li><ul>
+<li>teens in different spaces (educational and social)</li>
+</ul>
+</li>
+<li><ul>
+<li>interaction is travelling to other spaces</li>
+</ul>
+</li>
+</ul>
+</div><div class="prep" concept="1"></div></div><div class="note-group"></div><div class="writeup-group"><div class="prep writeup" concept="1"></div></div></div><br><div class="break-after" style="page-break-after:always;"></div><div class="concept-group"><h3 class="concept-name" id="procedural rhetoric">procedural rhetoric</h3><div class="context"><div></div><div class="context-links"></div><hr></div><div class="page-group"><h3 class="page-name">suggesting worldviews</h3><div class="prep" concept="2"><p>what did you think of the procedural rhetoric reading?</p>
+<p>rhetoric -&gt; communicating with the intent to convince (rational)/persuasion (emotional)</p>
+<ul>
+<li>speech rhetoric (i have a dream)</li>
+<li>visual rhetoric (obama poster, labels on cigarettes)</li>
+<li>film rhetoric (high angle shots, low angle shots)</li>
+<li>procedural rhetoric</li>
+</ul>
+</div><div class="prep" concept="2"><p>with words</p>
+<p>with images</p>
+<p>with processes?</p>
+<p><a target='_blank' href="https://www.molleindustria.org/the-best-amendment/">the best amendment</a></p>
+</div><div class="prep" concept="2"><p>what do you think is the game about? is it trying to prove a point?</p>
+</div><div class="prep" concept="2"></div></div><div class="note-group"></div><div class="writeup-group"><div class="prep writeup" concept="2"><div></div></div></div><div class="page-group"><h3 class="page-name">persuading processes</h3><div class="prep" concept="2"><p>the art and activity of communicating an idea exclusively through the laying out of rules to be enacted.</p>
+</div><div class="prep" concept="2"><img src="virtual worlds_assets/tom-nook-animal-crossing-switch.jpg" alt="tom-nook-animal-crossing-switch.jpg"></div><div class="prep" concept="2"></div></div><div class="note-group"></div><div class="writeup-group"><div class="prep writeup" concept="2"><p>Procedural rhetoric, then, is the ability to develop a system of rules which provides a statement about a particular world, about a particular group of people, about a particular practice, without ever being explicit about that statement.</p>
+<p>It is a different way to apprehend a problem: not by listening/reading an argument, not watching a poster or a movie, but instead acting through the consequences of a situation.</p>
+</div></div><div class="page-group"><h3 class="page-name">biased systems</h3><div class="prep" concept="2"><p>working <em>with</em> or <em>against</em> a certain grounding assumption</p>
+<p>balancing inputs and outputs force the user to find a certain kind of equilibrium</p>
+</div><div class="prep" concept="2"><img src="virtual worlds_assets/simcity-3000-990x550.jpg" alt="simcity-3000-990x550.jpg"></div><div class="prep" concept="2"><p><a target='_blank' href="https://mattscape.org/homelessbook">how to get rid of homeless</a></p>
+</div></div><div class="note-group"></div><div class="writeup-group"><div class="prep writeup" concept="2"><p>Because systems are designed by humans, and humans are biased, this bias can be more or less overtly detected when performing the system (i.e. playing the game, using the app). The most dangerous, that is the most harmful, form of bias is that which is covered, unseen. When the bias is obvious, then a conversation can happen between the player and the system regarding what <em>one really wants</em>.</p>
+<p>The interesting part is then to allow individuals to react to this state of things: whether they decide to go full on, or decide to stand up to the working assumptions.</p>
+</div></div></div><br><div class="break-after" style="page-break-after:always;"></div><div class="concept-group"><h3 class="concept-name" id="morals in interactive systems">morals in interactive systems</h3><div class="context"><div></div><div class="context-links"></div><hr></div><div class="page-group"><h3 class="page-name">choice in the digital</h3><div class="prep" concept="3"><p><strong>choice</strong> is a pre-requisite for moral behaviour.</p>
+<p>-&gt; examples of choice (or lack thereof) in digital systems?</p>
+</div><div class="prep" concept="3"><ul>
+<li>google maps gives you options on how to get somewhere (depends on transportation)</li>
+<li>terms and conditions, website cookies</li>
+<li>android (more choice, more danger) vs. apple app store (less choice, less danger)</li>
+<li>soundcloud single-device policy</li>
+<li>video playback speed varies</li>
+<li>needing to have an account to access a new app (login with fb, etc.)</li>
+<li>bandcamp vs. music store vs. spotify</li>
+<li>incompability with VPN</li>
+<li>autoplay on netflix</li>
+<li>having to see commercials on youtube</li>
+<li>for audio translation, speak in a very specific standard way</li>
+<li>update the software or you cannot use it</li>
+<li>soundcloud: forcing only one use at a time</li>
+<li>trying to connect on public wifi requires public information</li>
+<li>wechat replacing paper menus</li>
+</ul>
+</div></div><div class="note-group"></div><div class="writeup-group"><div class="prep writeup" concept="3"><p>As designers, we have a huge say in how much choice a user can have in our system. However, this is not limited to pre-determining what the user is going to do: they can engage with the system differently, antagonistically, critically.</p>
+<p>Choosing to shoot or not shoot in FPS. Choosing to accept cookies are not on websites. Choosing to share a connection with another user account.</p>
+<p>Still, we can provide narrow choices or wide choices: narrow choices reduce the chance for moral behaviour, while wide choices widen the range of moral (and immoral) behaviour.</p>
+</div></div><div class="page-group"><h3 class="page-name">computers as theaters</h3><div class="prep" concept="3"><p>brenda laurel, in her eponymous work, makes an argument for computers and computer interfaces, being a stage in which we, as the user, we enact a role.</p>
+</div><div class="prep" concept="3"><img src="virtual worlds_assets/computers_theater.jpg" alt="computers_theater.jpg"></div><div class="prep" concept="3"><p>computer interfaces are stages to be performed on.</p>
+<p><a target='_blank' href="https://www.youtube.com/watch?v=lGwb3rb3yC0">performances as making points</a></p>
+</div><div class="prep" concept="3"><p>user personas:</p>
+<ul>
+<li>the hero</li>
+</ul>
+</div><div class="prep" concept="3"><img src="virtual worlds_assets/white_men.jpg" alt="white_men.jpg"></div><div class="prep" concept="3"><ul>
+<li>the tipper</li>
+</ul>
+</div><div class="prep" concept="3"><img src="virtual worlds_assets/uber_tip.jpg" alt="uber_tip.jpg"></div><div class="prep" concept="3"><ul>
+<li>the integrated</li>
+</ul>
+</div><div class="prep" concept="3"><img src="virtual worlds_assets/apple_family.jpg" alt="apple_family.jpg"></div></div><div class="note-group"></div><div class="writeup-group"><div class="prep writeup" concept="3"><p>If computers are indeed theaters, then it is interesting to turn to the audience/stage relationship in theater as a parallel between the user/system relationship in personal computing.</p>
+<p>Several modern playwrights and philosophers (Bertolt Brecht, Augusto Boal, Jacques Rancière) have argued that this relationship was traditionally unbalanced: that it the stage was active while the spectator was passive. Involving the spectator, then, becomes an exercise of emancipation from oppression. The audience is being asked for their opinion, for their critical engagement, and sometimes even for their physical engagement.</p>
+<p>The overarching concept in these approaches is valid both in theater and in computer systems: it&#39;s about not taking the spectator/user for dumber than they are.</p>
+<p><a target='_blank' href="https://www.nngroup.com/articles/anti-mac-interface/">Here</a> is a comparison about the assumptions made between Mac and non-Mac interfaces.</p>
+</div></div></div><br><div class="break-after" style="page-break-after:always;"></div><div class="concept-group"><h3 class="concept-name" id="seeing through a computer">seeing through a computer</h3><div class="context"><div></div><div class="context-links"></div><hr></div><div class="page-group"><h3 class="page-name">a moral choice</h3><div class="prep" concept="4"><p>how do we actually create interesting (moral) choices?</p>
+</div><div class="prep" concept="4"><p>moral choices are just the extension of any <em>interesting</em> choice in digital systems;</p>
+<p><em>they imply a <strong>tradeoff</strong></em>.</p>
+<p><em>they have consequences on the <strong>short-, medium-</strong> and <strong>long-</strong> term</em>.</p>
+</div></div><div class="note-group"></div><div class="writeup-group"><div class="prep writeup" concept="4"></div></div><div class="page-group"><h3 class="page-name">narrow choices</h3><div class="prep" concept="4"><p>few choices <em>or</em> choices with few implications</p>
+<p>for instance, GTA.</p>
+</div></div><div class="note-group"></div><div class="writeup-group"><div class="prep writeup" concept="4"></div></div><div class="page-group"><h3 class="page-name">wide choices</h3><div class="prep" concept="4"><p>a wide range of choices <em>or</em> choices with far-reaching implications</p>
+</div><div class="prep" concept="4"><img src="virtual worlds_assets/car_dilemma.JPG" alt="car_dilemma.JPG"></div><div class="prep" concept="4"><img src="virtual worlds_assets/felixpeacefulmonk.jpg" alt="felixpeacefulmonk.jpg"></div></div><div class="note-group"></div><div class="writeup-group"><div class="prep writeup" concept="4"><p>The first picture is taken from a MIT experiment in the moral system of self-driving cars, the <a target='_blank' href="https://www.moralmachine.net/">moral machine</a>.</p>
+<p>The second picture is taken from Skyrim, in which a player has decided to go through the whole game without killing anyone. While the game boasts wide-ranging choices, as in most open-world games, we are still faced with the reality that it is impossible to complete without taking someone&#39;s life, showing both the ingenuity of players and the limits of digital rulesets.</p>
+</div></div><div class="page-group"><h3 class="page-name">seeing through a computer</h3><div class="prep" concept="4"><p>we should remain (at least a little) aware that we are using computers, and that this technology facilitates a certain kind of perspective.</p>
+<p><a target='_blank' href="https://www.nngroup.com/articles/anti-mac-interface/">The Anti-Mac Interface</a></p>
+</div><div class="prep" concept="4"></div></div><div class="note-group"></div><div class="writeup-group"><div class="prep writeup" concept="4"><p>Without going too deep into technological determinism (i.e. technology completely rules what we are allowed to do or not.</p>
+<p>Kinds of worldviews embedded in a computer system:</p>
+<p>-&gt; still distant, immersion</p>
+<p>-&gt; automated simulation, never interacting with the &quot;real&quot;</p>
+<p>-&gt; numbers (start from quantity)</p>
+<p>-&gt; interactivity</p>
+</div></div><div class="page-group"><h3 class="page-name">operating systems</h3><div class="prep" concept="4"><p>what are some traditional assumptions of operating systems?</p>
+<ul>
+<li>small group of highly skilled individual</li>
+<li>file hierarchy</li>
+<li>high level of abstraction</li>
+<li>user privileges</li>
+</ul>
+</div><div class="prep" concept="4"><p>what would be some assumptions of a <em>feminist</em> operating system?</p>
+<ul>
+<li>through the process of designing it</li>
+<li>more user-testing, more collaborative design processes</li>
+<li>increasing the transparency in what we&#39;re using (customization)</li>
+<li>non-linear file association, more flat, how files are relative to each other</li>
+<li>direct manipulation of objects</li>
+<li>lack of user privileges</li>
+</ul>
+</div><div class="prep" concept="4"></div></div><div class="note-group"></div><div class="writeup-group"><div class="prep writeup" concept="4"></div></div></div><br><div class="break-after" style="page-break-after:always;"></div><div class="concept-group"><h3 class="concept-name" id="outro">outro</h3><div class="context"><div></div><div class="context-links"></div><hr></div><div class="page-group"><h3 class="page-name">conclusion</h3><div class="prep" concept="5"><p>setting up rules to be enacted can persuade people. user reactions to those rulesets can also demonstrate opposite worldviews.</p>
+<p>whether those rules have wide or narrow consequences affects the moral implications.</p>
+<p>computers use process metaphors to assume behaviour in their users.</p>
+</div><div class="prep" concept="5"></div></div><div class="note-group"></div><div class="writeup-group"><div class="prep writeup" concept="5"></div></div><div class="page-group"><h3 class="page-name">homework</h3><div class="prep" concept="5"><p><strong>final project</strong></p>
+<p>starting to build your space, and populate it with items.</p>
+<p><strong>technical</strong></p>
+<p>this homework focuses on <strong>events</strong>, a way in unity to make a lot of different objects react to the same thing.</p>
+<p>and <strong>coroutines</strong>.</p>
+</div><div class="prep" concept="5"></div></div><div class="note-group"></div><div class="writeup-group"><div class="prep writeup" concept="5"></div></div></div><br><div class="break-after" style="page-break-after:always;"></div></main></body></html>
