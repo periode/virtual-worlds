@@ -29,7 +29,7 @@ The final project will consist in a virtual world developed over the course of a
 
 ## Schedule
 
-### Day 1 - 03.01 - Introduction
+### Day 1 - 05.01 - Introduction
 
 This session will introduce the themes, tools and structure of the class. The lecture will initiate discussions about the role of fiction, imagination and society.
 
@@ -39,7 +39,7 @@ This session will introduce the themes, tools and structure of the class. The le
 
 - Getting to walk around in a first-person view.
 
-### Day 2 - 04.01 - Ways of Worldmaking
+### Day 2 - 06.01 - Ways of Worldmaking
 
 This session will introduce the concepts of worldmaking, fiction and diction. By exploring the difference between poetics and aesthetics, we will develop a better grasp of how form and content can give birth to meaning in spoken, written and visual media.
 
@@ -50,17 +50,17 @@ This session will introduce the concepts of worldmaking, fiction and diction. By
 - Working with images, sounds and models.
 
 
-### Day 3 - 05.01 - Environmental Storytelling
+### Day 3 - 09.01 - Idea Presentation
 
-This session will focus on how spatial design can act as a communicative tools, building from techniques of level design, environmental storytelling and emergent narratives. We will examine how physical structures, objects, negative space, scale and lighting can express both emotions and histories.
+This session will allow students to present their ideas for their final project, from the concept to the proposed implementation. Students will be encouraged to provide feedback to each other during and after the presentations.
 
 **Technical**
 
 - Working with UI
 
-### Day 4 - 06.01 - Responsive Spaces
+### Day 4 - 10.01 - Environmental Storytelling
 
-Building on the previous day, this session will survey how spaces communicate concepts in the traditions of installation art, exhibition design and architecture. This will provide us with a more theoretical and historical overview of attempts at manifesting ideas through constructions. A special emphasis will be on the interactive components of these works.
+This session will focus on how spatial design can act as a communicative tools, building from techniques of level design, environmental storytelling and emergent narratives. We will examine how physical structures, objects, negative space, scale and lighting can express both emotions and histories.
 
 **Technical**
 
@@ -70,9 +70,9 @@ Building on the previous day, this session will survey how spaces communicate co
 
 - Animations
 
-### Day 5 - 07.01 - Design approaches
+### Day 5 - 11.01 - Responsive Spaces
 
-As a prelude to next week's project, this session will present ideation and brainstorming techniques for social imagination and worldbuilding. We will investigate how we can come up with new perspectives on over-arching narratives, and practice with short exercises.
+Building on the previous day, this session will survey how spaces communicate concepts in the traditions of installation art, exhibition design and architecture. This will provide us with a more theoretical and historical overview of attempts at manifesting ideas through constructions. A special emphasis will be on the interactive components of these works.
 
 **Technical**
 
@@ -80,9 +80,9 @@ As a prelude to next week's project, this session will present ideation and brai
 
 - Prefabs, transforms and instantiation
 
-### Day 6 - 10.01 - Idea Presentation
+### Day 6 - 12.01 - Procedural rhetoric - I
 
-This session will allow students to present their ideas for their final project, from the concept to the proposed implementation. Students will be encouraged to provide feedback to each other during and after the presentations.
+Beyond strict written and visual media as conveyors of arguments, this session will explore how algorithms can be designed and implemented in order to suggest possibilities, courses of actions, and worldviews upon their audiences.
 
 **Technical**
 
@@ -91,9 +91,9 @@ This session will allow students to present their ideas for their final project,
 - Raycasting
 
 
-### Day 7 - 11.01 - Procedural Rhetoric
+### Day 7 - 13.01 - Procedural rhetoric - II
 
-Beyond strict written and visual media as conveyors of arguments, this session will explore how algorithms can be designed and implemented in order to suggest possibilities, courses of actions, and worldviews upon their audiences.
+Continuing on the previous day, this session will have students implement a meaningful interaction which tells a story about their world. We will start by thinking of the design of the interaction, its elements and outcomes, and then work together to implement it.
 
 **Technical**
 
@@ -103,9 +103,11 @@ Beyond strict written and visual media as conveyors of arguments, this session w
 - Messages and Events
 
 
-### Day 8 - 12.01 - Network Embrace
+### Day 8 - 16.01 - Network Embrace
 
 This session will focus on the inclusion of networked media within spaces (both virtual and physical). From network art to the smart city, we will explore how connections, flows, distance and proximity can influence certain approaches of our world.
+
+**Guest Lecture - Lucas Gutierrez**
 
 **Technical**
 
@@ -115,7 +117,7 @@ This session will focus on the inclusion of networked media within spaces (both 
 - Multiplayer networking
 
 
-### Day 9 - 13.01 - Framing and presenting
+### Day 9 - 17.01 - Framing and presenting
 
 This session will focus on building, publishing and presenting the students projects. An artwork doesn't exist in a void; we will see how it is possible, and desirable, to display this artwork within a given context to facilitate the audience's engagement with the artwork.
 
@@ -127,10 +129,11 @@ This session will focus on building, publishing and presenting the students proj
 - itch.io and webdesign
 
 
-### Day 10 - 14.01 - Testing and Feedback
+### Day 10 - 18.01 - Testing and Feedback
 
 This session will be dedicated to presenting and testing your projects to your classmates, incorporating feedback and perspectives into your virtual space, including open office hours.
 
-### Final Day - 15.01 - Work Session
+
+### Final Day - 19.01 - Show & Tell
 
 Project presentation to the whole program

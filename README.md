@@ -6,7 +6,7 @@
 
 ## course information
 
-the __instructor__ for this course is [pierre depaz](https://pierredepaz.net), and the __resident__ is [enrique garcía-alcalá](http://egarciaa.com/en/index.html).
+the __instructor__ for this course is [pierre depaz](https://pierredepaz.net), and the __resident__ is brian ho.
 
 the __meeting dates__ are from 05.01.2021 until 17.01.2021, and with daily sessions.
 
