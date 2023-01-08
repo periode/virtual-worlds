@@ -249,15 +249,14 @@ img {
 }
 </style></head><body><header><h1 class="topic-name">ways of worldmaking</h1><h1 class="subject-name"><a href="index.html">virtual worlds</a></h1></header><main><div class="overview-holder"><h1>overview</h1><p>This session will introduce the concepts of worldmaking, fiction and diction. By exploring the difference between poetics and aesthetics, we will develop a better grasp of how form and content can give birth to meaning in spoken, written and visual media.</p>
 <p>In short, we&#39;re going to think of the world as artistic storytellings.</p>
-</div><div class="concept-nav"><h1>summary</h1><ul><a class="web-only" href="#intro">intro</a><li class="print-only">intro</li></ul><ul><a class="web-only" href="#homework review">homework review</a><li class="print-only">homework review</li></ul><ul><a class="web-only" href="#prelude">prelude</a><li class="print-only">prelude</li></ul><ul><a class="web-only" href="#ways of worldmaking">ways of worldmaking</a><li class="print-only">ways of worldmaking</li></ul><ul><a class="web-only" href="#fiction and diction">fiction and diction</a><li class="print-only">fiction and diction</li></ul><ul><a class="web-only" href="#world-building game">world-building game</a><li class="print-only">world-building game</li></ul><ul><a class="web-only" href="#knowing your material">knowing your material</a><li class="print-only">knowing your material</li></ul><ul><a class="web-only" href="#outro">outro</a><li class="print-only">outro</li></ul><br></div><div class="break-after" style="page-break-after:always;"></div><div class="concept-group"><h3 class="concept-name" id="intro">intro</h3><div class="context"><div></div><div class="context-links"></div><hr></div><div class="page-group"><h3 class="page-name">ways of worldmaking</h3><div class="prep" concept="0"><p>welcome!</p>
+</div><div class="concept-nav"><h1>summary</h1><ul><a class="web-only" href="#intro">intro</a><li class="print-only">intro</li></ul><ul><a class="web-only" href="#homework review">homework review</a><li class="print-only">homework review</li></ul><ul><a class="web-only" href="#prelude">prelude</a><li class="print-only">prelude</li></ul><ul><a class="web-only" href="#ways of worldmaking">ways of worldmaking</a><li class="print-only">ways of worldmaking</li></ul><ul><a class="web-only" href="#surface and depth">surface and depth</a><li class="print-only">surface and depth</li></ul><ul><a class="web-only" href="#world-building game">world-building game</a><li class="print-only">world-building game</li></ul><ul><a class="web-only" href="#knowing your material">knowing your material</a><li class="print-only">knowing your material</li></ul><ul><a class="web-only" href="#outro">outro</a><li class="print-only">outro</li></ul><br></div><div class="break-after" style="page-break-after:always;"></div><div class="concept-group"><h3 class="concept-name" id="intro">intro</h3><div class="context"><div></div><div class="context-links"></div><hr></div><div class="page-group"><h3 class="page-name">ways of worldmaking</h3><div class="prep" concept="0"><p>welcome!</p>
 </div></div><div class="note-group"></div><div class="writeup-group"><div class="prep writeup" concept="0"></div></div><div class="page-group"><h3 class="page-name">plan for the day</h3><div class="prep" concept="0"><p><em>what goes into making a new world?</em></p>
 <p>-&gt; homework review</p>
+<p>-&gt; techniques for imaginations</p>
 <p>-&gt; approaches to worldmaking</p>
-<p>-&gt; fiction vs. diction</p>
-<p>-&gt; semantic literacies</p>
+<p>-&gt; exercises and unity</p>
 </div></div><div class="note-group"></div><div class="writeup-group"><div class="prep writeup" concept="0"><p>The main question we&#39;ll ask today is &quot;what goes into making new worlds?&quot;. After examining why the idea of multiple worlds, rather than one, fixed, solid reality is even a valid one, we&#39;ll see what are some components that go into bringing a version of the world to life, from higher-level (fiction and diction) to lower-level (verbal and visual literacies).</p>
 </div></div></div><br><div class="break-after" style="page-break-after:always;"></div><div class="concept-group"><h3 class="concept-name" id="homework review">homework review</h3><div class="context"><div></div><div class="context-links"></div><hr></div><div class="page-group"><h3 class="page-name">walking around unity</h3><div class="prep" concept="1"><p>how did you solve it?</p>
-<p><code>Transform.position</code> vs. <code>Transform.Translate()</code>?</p>
 </div><div class="prep" concept="1"></div></div><div class="note-group"></div><div class="writeup-group"><div class="prep writeup" concept="1"></div></div><div class="page-group"><h3 class="page-name">character controller</h3><div class="prep" concept="1"><p>unity&#39;s <a target='_blank' href="https://docs.unity3d.com/Manual/class-CharacterController.html"><code>CharacterController</code></a> component deals with movement without getting bogged down by Physics issues.</p>
 <p><code>CharacterController.Move(Time.deltaTime * direction * multiplier)</code></p>
 </div><div class="prep" concept="1"><img src="virtual worlds_assets/Inspector-CharacterController.png" alt="Inspector-CharacterController.png"></div></div><div class="note-group"></div><div class="writeup-group"><div class="prep writeup" concept="1"><p>By adding the CharacterController component, Unity will deal with both input (keys, mouse) as well as output (how the character controller should behave when moving around (hitting walls, going over slopes, etc.)</p>
@@ -266,15 +265,54 @@ img {
 <p>pros? cons?</p>
 </div></div><div class="note-group"></div><div class="writeup-group"><div class="prep writeup" concept="1"><p>The main difference is being able to see one&#39;s own body. The first-person perspective might provide a greater sense of immersion, and a greater ease of control, as users are all used to existing in such a perspective.</p>
 <p>The third-person, on the contrary, provides more information to the detriment of seamlessness: you can see who you are (and, as such, the designer can provide yet another layer of information related to the narrative and artistic direction of the world), and you can see what is going on around you better, but it might feel unnatural and somewhat clunky to move around.</p>
-</div></div></div><br><div class="break-after" style="page-break-after:always;"></div><div class="concept-group"><h3 class="concept-name" id="prelude">prelude</h3><div class="context"><div></div><div class="context-links"></div><hr></div><div class="page-group"><h3 class="page-name">hidden narratives</h3><div class="prep" concept="2"><p>examples of narratives?</p>
-<p>exhibits necessary?</p>
-</div><div class="prep" concept="2"></div></div><div class="note-group"></div><div class="writeup-group"><div class="prep writeup" concept="2"></div></div><div class="page-group"><h3 class="page-name">dominance</h3><div class="prep" concept="2"><p>what makes one narrative more important than another?</p>
-</div></div><div class="note-group"></div><div class="writeup-group"><div class="prep writeup" concept="2"><p>There are multiple ways to make a narrative dominating others.</p>
+</div></div></div><br><div class="break-after" style="page-break-after:always;"></div><div class="concept-group"><h3 class="concept-name" id="prelude">prelude</h3><div class="context"><div></div><div class="context-links"></div><hr></div><div class="page-group"><h3 class="page-name">techniques for future studies</h3><div class="prep" concept="2"><p>examples of techniques?</p>
 <ul>
-<li>path dependency: when something exists for a long time, it informs subsequent decisions and strengthens its position as &quot;natural&quot;. A corollary of that is <em>repetition</em>. When something is done over and over, it becomes engrained.</li>
-<li>convincing: using rational arguments to make it obvious, through logic, that such a narrative is the &quot;correct&quot; one.</li>
-<li>persuading: using emotional and aesthetic approaches to persuade others that the narrative is worth pursuing.</li>
+<li><p>future history: &quot;how did we get there?&quot; (timeline, genealogical trees)</p>
+</li>
+<li><p>threat casting: envision future scenarios, envision the worst to avoid it</p>
+</li>
 </ul>
+</div><div class="prep" concept="2"></div></div><div class="note-group"></div><div class="writeup-group"><div class="prep writeup" concept="2"></div></div><div class="page-group"><h3 class="page-name">imagining narratives</h3><div class="prep" concept="2"><ul>
+<li><p>few things are technically/socially impossible</p>
+</li>
+<li><p><strong>social</strong> imagination</p>
+</li>
+<li><p><strong>technological</strong> imagination</p>
+</li>
+<li><p><strong>psychological</strong> imagination</p>
+</li>
+</ul>
+</div><div class="prep" concept="2"><ul>
+<li><p>three horizons (futures wheel, nth-order consequence)</p>
+</li>
+<li><ul>
+<li><strong>present</strong></li>
+</ul>
+</li>
+<li><ul>
+<li><strong>emerging</strong></li>
+</ul>
+</li>
+<li><ul>
+<li><strong>distant</strong></li>
+</ul>
+</li>
+<li><p>backcasting</p>
+</li>
+<li><ul>
+<li>working backwards from the future</li>
+</ul>
+</li>
+<li><p>ancestry</p>
+</li>
+<li><ul>
+<li>how will the present be remembered?</li>
+</ul>
+</li>
+</ul>
+</div><div class="prep" concept="2"><p>technological imagination is easy, social imagination is more complicated.</p>
+<p>philip k. dick: <em>science fiction is not about inventing cars, it&#39;s about inventing traffic jams</em></p>
+</div></div><div class="note-group"></div><div class="writeup-group"><div class="prep writeup" concept="2"><p>three horizons: present, emerging, radical</p>
 </div></div></div><br><div class="break-after" style="page-break-after:always;"></div><div class="concept-group"><h3 class="concept-name" id="ways of worldmaking">ways of worldmaking</h3><div class="context"><div></div><div class="context-links"></div><hr></div><div class="page-group"><h3 class="page-name">one world</h3><div class="prep" concept="3"><p>to what extent do we all live in the same world?</p>
 </div><div class="prep" concept="3"><p>having one world implies one truth, which is rendered moot because of, at least, <em>relativity</em>.</p>
 <p>indeed, <em>truth is relative</em> (c.f Kurt Gödel)</p>
@@ -298,8 +336,6 @@ img {
 <p><img src="https://www.paintgallery.net/impression_soleil_levant_a19380.jpg" alt="impression, soleil levant"></p>
 <p>e.g. the development of the arab league in the middle east</p>
 <p><img src="https://ak6.picdn.net/shutterstock/videos/27152176/thumb/1.jpg" alt="arab league flag"></p>
-<p>e.g. the place of the listener in john cage&#39;s 4&#39;33&quot;</p>
-<p><img src="http://cdn8.openculture.com/wp-content/uploads/2016/04/15104217/cage-performs-433.png" alt="john cage 4 33"></p>
 </div><div class="prep" concept="3"><p><strong>weighing</strong></p>
 <p>e.g. women having the same voting rights as men</p>
 <p><img src="https://changingwinds.files.wordpress.com/2015/10/1911-suffragettes.jpg" alt="sufragettes"></p>
@@ -307,13 +343,15 @@ img {
 <p>e.g. <a target='_blank' href="https://www.youtube.com/watch?v=TDD5OOAcTUg">papers, please</a> putting more emphasis on document manipulation than on decision-making</p>
 <p>e.g. nam june paik putting more emphasis on the material rather than the content</p>
 <p><img src="https://64.media.tumblr.com/bbaaa20d589e8c7e57027d1d77469ab9/tumblr_noruamfncX1qm5hn5o1_640.jpg" alt="magnet tv"></p>
+<p>e.g. the place of the listener in john cage&#39;s 4&#39;33&quot;</p>
+<p><img src="http://cdn8.openculture.com/wp-content/uploads/2016/04/15104217/cage-performs-433.png" alt="john cage 4 33"></p>
 </div><div class="prep" concept="3"><p><strong>ordering</strong></p>
 <p>e.g. categories for lgbtq+ in administrative forms</p>
 <p><img src="https://media3.s-nbcnews.com/j/newscms/2017_13/1948006/erased-from-census-600x300_16ed7087c8bec6ad1cb3ec2d385c0919.fit-760w.jpg" alt="us census 2020"></p>
 <p>e.g. introducing or removing grading schemas in schools.</p>
 </div><div class="prep" concept="3"><img src="virtual worlds_assets/Screenshot from 2021-01-04 23-02-25.png" alt="Screenshot from 2021-01-04 23-02-25.png"></div><div class="prep" concept="3"><p><strong>deleting and adding</strong></p>
 <p>e.g. removing local train lines between smaller cities</p>
-<p>e.g. adding asphalt roads in cities -&gt; path dependency</p>
+<p>e.g. adding asphalt roads in cities -&gt; <strong>path dependency</strong></p>
 <p>e.g. adding one more typology to parenting models</p>
 </div></div><div class="note-group"></div><div class="writeup-group"><div class="prep writeup" concept="3"><ul>
 <li><p><strong>splitting and combining</strong> focus on separating things that used to be together, that used to be <em>taken for granted</em> when together. Inversely, combining puts seemingly unrelated things together to provide a new coherent whole.</p>
@@ -328,7 +366,7 @@ img {
 </div></div><div class="page-group"><h3 class="page-name">assessment</h3><div class="prep" concept="3"><p>if there are no <em>absolutely true</em> worlds, there are nonetheless worlds that are more <em>acceptable</em> than others.</p>
 <p>what makes them so?</p>
 </div><div class="prep" concept="3"><ul>
-<li><p>frame of context</p>
+<li><p>frame of context (suspension of disbelief)</p>
 </li>
 <li><p>usefulness</p>
 </li>
@@ -340,9 +378,9 @@ img {
 <p>Finally, a requirement for a world to be taking seriously is its <strong>consistency</strong>. This is both internal (does it contradict itself?) and external (does it contradict other worlds in absurd ways?).</p>
 <p>All of these are never guarantors of the truth-value of a world: a vision can be true without being obviously useful, a vision can be useful without being absolutely consistent. Nonetheless, these provide benchmarks to assess to what extent our worlds and our imaginations can be taken seriously and therefore, perhaps, materialized into reality.</p>
 </div></div><div class="page-group"><h3 class="page-name">exercise</h3><div class="prep" concept="3"><p>take the world as you see it now</p>
-<p>transform it into a fiction by applying one of the following on a <em>fundamental</em> aspect of our lives</p>
+<p>transform it into a fiction by applying one of the following on a <em>fundamental</em> aspect of our lives (you define what is fundamental)</p>
 <p>(adding, deleting, ordering, weighing, etc.)</p>
-</div></div><div class="note-group"></div><div class="writeup-group"><div class="prep writeup" concept="3"></div></div></div><br><div class="break-after" style="page-break-after:always;"></div><div class="concept-group"><h3 class="concept-name" id="fiction and diction">fiction and diction</h3><div class="context"><div></div><div class="context-links"></div><hr></div><div class="page-group"><h3 class="page-name">the separation</h3><div class="prep" concept="4"><ul>
+</div><div class="prep" concept="3"></div></div><div class="note-group"></div><div class="writeup-group"><div class="prep writeup" concept="3"></div></div></div><br><div class="break-after" style="page-break-after:always;"></div><div class="concept-group"><h3 class="concept-name" id="surface and depth">surface and depth</h3><div class="context"><div></div><div class="context-links"></div><hr></div><div class="page-group"><h3 class="page-name">the separation</h3><div class="prep" concept="4"><ul>
 <li><p>the theme, the content, the concept, that which doesn&#39;t change if you change the way it looks/sounds</p>
 </li>
 <li><p>the form, the surface, the ornament, that which doesn&#39;t change if you change the purpose, the intent</p>
@@ -352,22 +390,40 @@ img {
 </div></div><div class="note-group"></div><div class="writeup-group"><div class="prep writeup" concept="4"><p>This distinction between the what and the how, Aristotle already pointed to it in his book <em>Poetics</em>. In Western philosophy, it&#39;s a long debate between those two parts: the form and the content.</p>
 <p>In general, though, it seems that form and content, while distinct, are also inseparable from each other: that the form affects the content and vice-versa. Any surface decision you make will somehow affect how your idea is perceived. Any conceptual direction you&#39;re taking might affect how it is <em>perceived</em> by the public.</p>
 <p>I personally would argue that humans often tend to focus on surface at first since we are sensual bodies first and foremost, and then second on content. This means that, if we were to trace a hierarchy, or a priority, surface would take short-term precedence.</p>
-</div></div><div class="page-group"><h3 class="page-name">-tics</h3><div class="prep" concept="4"><p>this separation, <em>form</em> vs. <em>content</em> has been given several names:</p>
-<p>fiction vs. diction (genette)</p>
-</div><div class="prep" concept="4"><img src="virtual worlds_assets/fictiondiction.jpg" alt="fictiondiction.jpg"></div></div><div class="note-group"></div><div class="writeup-group"><div class="prep writeup" concept="4"><p>For the sake of this class, we&#39;ll settle on this distinction, made by Gérard Genette in his eponymous book. Fiction is that which is thematic (what it says), and diction is that which is formal (how it looks).</p>
+</div></div><div class="page-group"><h3 class="page-name">-tics</h3><div class="prep" concept="4"><p>this separation has been given several names:</p>
+<ul>
+<li><p>form vs. content</p>
+</li>
+<li><p>fiction vs. diction (genette)</p>
+</li>
+<li><p>syntax vs. semantics (saussure)</p>
+</li>
+</ul>
+</div></div><div class="note-group"></div><div class="writeup-group"><div class="prep writeup" concept="4"><p>For the sake of this class, we&#39;ll settle on this distinction, made by Gérard Genette in his eponymous book. Fiction is that which is thematic (what it says), and diction is that which is formal (how it looks).</p>
 <p>However, Genette focuses exclusively on <em>the literary</em>: that which is essentially composed by language (as in, written words). Departing from that, we will use a broader definition of language, including still and moving images, recordings, objects and processes in order to express our world.</p>
 <p>Read more about such a departure <a target='_blank' href="https://blogs.ibo.org/blog/2019/08/01/literary-or-non-literary-that-is-the-question/">here</a></p>
-</div></div><div class="page-group"><h3 class="page-name">a story</h3><div class="prep" concept="4"><p>is about finding what you think is an important, convincing <strong>fiction</strong></p>
-<p>and is about finding the best <strong>diction</strong> to express your idea.</p>
+</div></div><div class="page-group"><h3 class="page-name">a story</h3><div class="prep" concept="4"><p>is about finding what you think is an important, convincing <strong>fiction</strong> (one sentence)</p>
+<p>and is about finding the best <strong>diction</strong> to express your idea. (one paragraph)</p>
 <p>to help others <em>understand</em> what you&#39;re talking about, and <em>be persuaded</em> by what you&#39;re talking about</p>
 </div></div><div class="note-group"></div><div class="writeup-group"><div class="prep writeup" concept="4"><p>Because, in the end, this is mostly about making others understand, bringing them closer to a certain kind of truth, a truth that you find beneficial to believe in.</p>
-</div></div></div><br><div class="break-after" style="page-break-after:always;"></div><div class="concept-group"><h3 class="concept-name" id="world-building game">world-building game</h3><div class="page-group"><h3 class="page-name">inventing futures</h3><div class="prep" concept="5"><p><a target='_blank' href="https://investinginfutures.enframed.net/">https://investinginfutures.enframed.net/</a></p>
+</div></div><div class="page-group"><h3 class="page-name">example</h3><div class="prep" concept="4"><p>theme: to live</p>
+<p>form:</p>
+<ul>
+<li>an old bureaucrat has hidden sickness -&gt; existential drama</li>
+</ul>
+</div><div class="prep" concept="4"><img src="virtual worlds_assets/Ikiru_poster.jpg" alt="Ikiru_poster.jpg"></div><div class="prep" concept="4"><ul>
+<li>a woman survives through her life -&gt; historical epic</li>
+</ul>
+</div><div class="prep" concept="4"><img src="virtual worlds_assets/电影活着.jpg" alt="电影活着.jpg"></div><div class="prep" concept="4"><ul>
+<li>two men co-exist to survive -&gt; psychological thriller</li>
+</ul>
+</div><div class="prep" concept="4"><img src="virtual worlds_assets/To_Live_(2010_film).jpg" alt="To_Live_(2010_film).jpg"></div><div class="prep" concept="4"></div></div><div class="note-group"></div><div class="writeup-group"><div class="prep writeup" concept="4"></div></div></div><br><div class="break-after" style="page-break-after:always;"></div><div class="concept-group"><h3 class="concept-name" id="world-building game">world-building game</h3><div class="context"><div></div><div class="context-links"></div><hr></div><div class="page-group"><h3 class="page-name">inventing futures</h3><div class="prep" concept="5"><p><a target='_blank' href="https://investinginfutures.enframed.net/">https://investinginfutures.enframed.net/</a></p>
 <p>in groups of two</p>
 <p>-&gt; select the &quot;original deck&quot;</p>
-<p>-&gt; read part I from the guide (worldbuilding)</p>
-<p>-&gt; pick one card from each deck, then flip them</p>
-<p>-&gt; start jotting down how this world would look like, and be ready to discuss it with the group</p>
-</div></div><div class="note-group"></div><div class="writeup-group"><div class="prep writeup" concept="5"></div></div><div class="page-group"><h3 class="page-name">results</h3></div><div class="note-group"></div><div class="writeup-group"><div class="prep writeup" concept="5"></div></div></div><br><div class="break-after" style="page-break-after:always;"></div><div class="concept-group"><h3 class="concept-name" id="knowing your material">knowing your material</h3><div class="context"><div></div><div class="context-links"></div><hr></div><div class="page-group"><h3 class="page-name">literacies</h3><div class="prep" concept="6"><p>literacy is</p>
+<p>-&gt; pick 5 cards, from the decks you want</p>
+<p>-&gt; sketch out <strong>(1)</strong> how this world would look like, from a social and cultural perspective and <strong>(2)</strong> how consistent and useful it is.</p>
+<p><strong>20min</strong></p>
+</div><div class="prep" concept="5"></div></div><div class="note-group"></div><div class="writeup-group"><div class="prep writeup" concept="5"></div></div><div class="page-group"><h3 class="page-name">results</h3><div class="prep" concept="5"></div></div><div class="note-group"></div><div class="writeup-group"><div class="prep writeup" concept="5"></div></div></div><br><div class="break-after" style="page-break-after:always;"></div><div class="concept-group"><h3 class="concept-name" id="knowing your material">knowing your material</h3><div class="context"><div></div><div class="context-links"></div><hr></div><div class="page-group"><h3 class="page-name">literacies</h3><div class="prep" concept="6"><p>literacy is</p>
 <blockquote>
 <p>a means (through symbolic language) to understand and express both oneself and the outside world and which serves as an intermediary between those two spheres.</p>
 </blockquote>
@@ -413,8 +469,9 @@ img {
 <li>The New Europeans, National Geographic, 2017.</li>
 </ul>
 </div></div><div class="page-group"><h3 class="page-name">artefactual literacy</h3><div class="prep" concept="6"><p>objects are latent stories, which can be activated through:</p>
-<p><strong>interpretation</strong>: objects layed out dramatically</p>
-<p><strong>interaction</strong>: place-making with histories (&quot;<em>oh, this is where X happened</em>&quot;)</p>
+<p><strong>production</strong></p>
+<p><strong>communication</strong></p>
+<p><strong>consumption</strong></p>
 </div><div class="prep" concept="6"><img src="virtual worlds_assets/sony-walkman.jpg" alt="sony-walkman.jpg"></div><div class="prep" concept="6"><img src="virtual worlds_assets/stolen_friend.png" alt="stolen_friend.png"></div><div class="prep" concept="6"></div></div><div class="note-group"></div><div class="writeup-group"><div class="prep writeup" concept="6"><p>Objects are first and foremost materials: they can be seen, touched, heard, smelled, before they can be understood. Through this materiality, objects embody more invisible, evanescent, sometimes &quot;ideological&quot; relationships and therefore act as testimonies to our culture.</p>
 <p>Objects can have a range of sizes, from a toothpick to the sixth continent of plastic (often qualifying as hyperobjects).</p>
 <p>Particularly, <em>artefacts</em> (cf. Daniel Miller) are means of representing not just individuals (through their choice of using those) but mostly as manifestations of the historical and geographical contexts in which they operate. This isn&#39;t just limited to the, say, masks of &quot;primitive&quot; populations studied by anthropologists such as a Marcel Mauss and Levi-Strauss, but to all objects created by any society, including (and especially!) societies from which anthropologists typically come from.</p>
